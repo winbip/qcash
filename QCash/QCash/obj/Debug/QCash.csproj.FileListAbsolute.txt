@@ -1,166 +1,60 @@
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\QCash.exe.config
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\QCash.exe
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\QCash.pdb
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\CustomControls.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\CustomObjects.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\Framework.Controls.ProgressBar.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\Guifreaks.Common.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\Guifreaks.NavigationBar.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\InputDialogBox.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\sCommonLib.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\SpellNumber.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\CustomControls.pdb
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\CustomObjects.pdb
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\sCommonLib.pdb
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\bin\Debug\Guifreaks.NavigationBar.XmlSerializers.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\ResolveAssemblyReference.cache
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.CommonForms.frmMsReportViewer.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.CommonForms.frmProgressBar.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.frmEventMaker.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.frmMain.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.frmResetDatabase.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.frmSplash.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmAccountHeadDetails.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmAddEditSubCatNode.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmChartOfAccount.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmSelectSubCategoryNode.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmCompanyInfo.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmDatabaseConfiguration.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmPermissions.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmUserDetails.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.SubCategoryForms.frmSubCategoryDetails.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.SubCategoryForms.frmSubCategoryList.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.ProgramMenuForms.frmChangePassword.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.ProgramMenuForms.frmLogIn.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.Properties.Resources.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmCashBook.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmGeneralLedger.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.VoucherMenuForms.frmVoucher.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\GenerateResource.read.1.tlog
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\GenerateResource.write.1.tlog
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\RdlCompile.cache
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\RdlCompile.compiled
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.exe
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.pdb
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmGeneralLedgerFilter.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmTrialBalance.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.VoucherMenuForms.frmVoucherHistory.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.OpeningBalanceForms.frmOpeningBalance.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.OpeningBalanceForms.frmOpeningBalanceHistory.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.UserMenuForms.frmAppUser.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\QCash\obj\Debug\QCash.MasterSetupForms.UserMenuForms.frmAppUserList.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\QCash.exe.config
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\QCash.exe
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\QCash.pdb
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\CustomControls.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\CustomObjects.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\Framework.Controls.ProgressBar.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\Guifreaks.Common.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\Guifreaks.NavigationBar.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\InputDialogBox.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\RegKey.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\sCommonLib.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\SpellNumber.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\RegKey.pdb
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\CustomControls.pdb
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\CustomObjects.pdb
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\sCommonLib.pdb
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\bin\Debug\Guifreaks.NavigationBar.XmlSerializers.dll
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\ResolveAssemblyReference.cache
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.AboutUsForms.frmAboutUs.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.AboutUsForms.frmRegister.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.CommonForms.frmMsReportViewer.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.CommonForms.frmProgressBar.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.frmEventMaker.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.frmMain.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.frmResetDatabase.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.frmSplash.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmAccountHeadDetails.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmAddEditSubCatNode.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmChartOfAccount.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmSelectSubCategoryNode.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmCompanyInfo.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmDatabaseConfiguration.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmPermissions.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmUserDetails.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.OpeningBalanceForms.frmOpeningBalance.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.OpeningBalanceForms.frmOpeningBalanceHistory.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.SubCategoryForms.frmSubCategoryDetails.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.SubCategoryForms.frmSubCategoryList.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.UserMenuForms.frmAppUser.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.MasterSetupForms.UserMenuForms.frmAppUserList.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.ProgramMenuForms.frmChangePassword.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.ProgramMenuForms.frmLogIn.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.Properties.Resources.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmCashBook.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmGeneralLedger.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmGeneralLedgerFilter.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmTrialBalance.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.VoucherMenuForms.frmVoucher.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.VoucherMenuForms.frmVoucherHistory.resources
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\GenerateResource.read.1.tlog
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\GenerateResource.write.1.tlog
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\RdlCompile.cache
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\RdlCompile.compiled
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.exe
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.pdb
-D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\QCash\obj\Debug\QCash.UtilityMenuForms.frmExportData.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\QCash.exe.config
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\QCash.exe
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\QCash.pdb
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\CustomControls.dll
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\CustomObjects.dll
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\Framework.Controls.ProgressBar.dll
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\Guifreaks.Common.dll
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\Guifreaks.NavigationBar.dll
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\InputDialogBox.dll
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\RegKey.dll
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\sCommonLib.dll
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\SpellNumber.dll
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\CustomControls.pdb
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\CustomObjects.pdb
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\RegKey.pdb
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\sCommonLib.pdb
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\bin\Debug\Guifreaks.NavigationBar.XmlSerializers.dll
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.csproj.SuggestedBindingRedirects.cache
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.AboutUsForms.frmAboutUs.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.AboutUsForms.frmRegister.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.CommonForms.frmMsReportViewer.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.CommonForms.frmProgressBar.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.frmEventMaker.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.frmMain.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.frmResetDatabase.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.frmSplash.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmAccountHeadDetails.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmAddEditSubCatNode.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmChartOfAccount.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmSelectSubCategoryNode.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmCompanyInfo.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmDatabaseConfiguration.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmPermissions.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmUserDetails.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.OpeningBalanceForms.frmOpeningBalance.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.OpeningBalanceForms.frmOpeningBalanceHistory.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.SubCategoryForms.frmSubCategoryDetails.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.SubCategoryForms.frmSubCategoryList.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.UserMenuForms.frmAppUser.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.MasterSetupForms.UserMenuForms.frmAppUserList.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.ProgramMenuForms.frmChangePassword.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.ProgramMenuForms.frmLogIn.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.Properties.Resources.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.UtilityMenuForms.frmExportData.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmCashBook.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmGeneralLedger.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmGeneralLedgerFilter.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmTrialBalance.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.VoucherMenuForms.frmVoucher.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.VoucherMenuForms.frmVoucherHistory.resources
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.csproj.GenerateResource.cache
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.csproj.CopyComplete
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.exe
-C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\QCash\obj\Debug\QCash.pdb
+D:\dotnet\qcash\QCash\QCash\bin\Debug\QCash.exe.config
+D:\dotnet\qcash\QCash\QCash\bin\Debug\QCash.exe
+D:\dotnet\qcash\QCash\QCash\bin\Debug\QCash.pdb
+D:\dotnet\qcash\QCash\QCash\bin\Debug\CustomControls.dll
+D:\dotnet\qcash\QCash\QCash\bin\Debug\CustomObjects.dll
+D:\dotnet\qcash\QCash\QCash\bin\Debug\Framework.Controls.ProgressBar.dll
+D:\dotnet\qcash\QCash\QCash\bin\Debug\Guifreaks.Common.dll
+D:\dotnet\qcash\QCash\QCash\bin\Debug\Guifreaks.NavigationBar.dll
+D:\dotnet\qcash\QCash\QCash\bin\Debug\InputDialogBox.dll
+D:\dotnet\qcash\QCash\QCash\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\dotnet\qcash\QCash\QCash\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\dotnet\qcash\QCash\QCash\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\dotnet\qcash\QCash\QCash\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\dotnet\qcash\QCash\QCash\bin\Debug\RegKey.dll
+D:\dotnet\qcash\QCash\QCash\bin\Debug\sCommonLib.dll
+D:\dotnet\qcash\QCash\QCash\bin\Debug\SpellNumber.dll
+D:\dotnet\qcash\QCash\QCash\bin\Debug\CustomControls.pdb
+D:\dotnet\qcash\QCash\QCash\bin\Debug\CustomObjects.pdb
+D:\dotnet\qcash\QCash\QCash\bin\Debug\RegKey.pdb
+D:\dotnet\qcash\QCash\QCash\bin\Debug\sCommonLib.pdb
+D:\dotnet\qcash\QCash\QCash\bin\Debug\Guifreaks.NavigationBar.XmlSerializers.dll
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.csproj.AssemblyReference.cache
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.csproj.SuggestedBindingRedirects.cache
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.AboutUsForms.frmAboutUs.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.AboutUsForms.frmRegister.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.CommonForms.frmMsReportViewer.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.CommonForms.frmProgressBar.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.frmEventMaker.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.frmMain.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.frmResetDatabase.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.frmSplash.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmAccountHeadDetails.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmAddEditSubCatNode.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmChartOfAccount.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.ChartOfAccountsForm.frmSelectSubCategoryNode.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmCompanyInfo.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmDatabaseConfiguration.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmPermissions.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.frmUserDetails.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.OpeningBalanceForms.frmOpeningBalance.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.OpeningBalanceForms.frmOpeningBalanceHistory.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.SubCategoryForms.frmSubCategoryDetails.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.SubCategoryForms.frmSubCategoryList.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.UserMenuForms.frmAppUser.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.MasterSetupForms.UserMenuForms.frmAppUserList.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.ProgramMenuForms.frmChangePassword.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.ProgramMenuForms.frmLogIn.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.Properties.Resources.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.UtilityMenuForms.frmExportData.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmCashBook.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmGeneralLedger.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmGeneralLedgerFilter.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.ViewMenuForms.frmTrialBalance.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.VoucherMenuForms.frmVoucher.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.VoucherMenuForms.frmVoucherHistory.resources
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.csproj.GenerateResource.cache
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.csproj.CoreCompileInputs.cache
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.csproj.CopyComplete
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.exe
+D:\dotnet\qcash\QCash\QCash\obj\Debug\QCash.pdb

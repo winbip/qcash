@@ -18,3 +18,14 @@ C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\GenerateLicenseKey\obj\x86
 C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\GenerateLicenseKey\obj\x86\Debug\GenerateLicenseKey.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\GenerateLicenseKey\obj\x86\Debug\GenerateLicenseKey.exe
 C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\GenerateLicenseKey\obj\x86\Debug\GenerateLicenseKey.pdb
+D:\dotnet\qcash\QCash\GenerateLicenseKey\bin\Debug\GenerateLicenseKey.exe.config
+D:\dotnet\qcash\QCash\GenerateLicenseKey\bin\Debug\GenerateLicenseKey.exe
+D:\dotnet\qcash\QCash\GenerateLicenseKey\bin\Debug\GenerateLicenseKey.pdb
+D:\dotnet\qcash\QCash\GenerateLicenseKey\obj\x86\Debug\GenerateLicenseKey.csproj.AssemblyReference.cache
+D:\dotnet\qcash\QCash\GenerateLicenseKey\obj\x86\Debug\GenerateLicenseKey.csproj.SuggestedBindingRedirects.cache
+D:\dotnet\qcash\QCash\GenerateLicenseKey\obj\x86\Debug\GenerateLicenseKey.frmMain.resources
+D:\dotnet\qcash\QCash\GenerateLicenseKey\obj\x86\Debug\GenerateLicenseKey.Properties.Resources.resources
+D:\dotnet\qcash\QCash\GenerateLicenseKey\obj\x86\Debug\GenerateLicenseKey.csproj.GenerateResource.cache
+D:\dotnet\qcash\QCash\GenerateLicenseKey\obj\x86\Debug\GenerateLicenseKey.csproj.CoreCompileInputs.cache
+D:\dotnet\qcash\QCash\GenerateLicenseKey\obj\x86\Debug\GenerateLicenseKey.exe
+D:\dotnet\qcash\QCash\GenerateLicenseKey\obj\x86\Debug\GenerateLicenseKey.pdb
