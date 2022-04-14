@@ -1,0 +1,42 @@
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\bin\Debug\sCommonLib.dll
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\bin\Debug\sCommonLib.pdb
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.ConfirmationMessageBox.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.frmStackTraceDetails.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.GeneralMessageBox.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.SuccessMessageBox.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.SystemExceptionMessageBox.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.UserExceptionMessageBox.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\obj\Debug\sCommonLib.Properties.Resources.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\obj\Debug\sCommonLib.dll
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based\QCash\sCommonLib\obj\Debug\sCommonLib.pdb
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\bin\Debug\sCommonLib.dll
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\bin\Debug\sCommonLib.pdb
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.ConfirmationMessageBox.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.frmStackTraceDetails.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.GeneralMessageBox.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.SuccessMessageBox.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.SystemExceptionMessageBox.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.UserExceptionMessageBox.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\obj\Debug\sCommonLib.Properties.Resources.resources
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\obj\Debug\sCommonLib.dll
+D:\Projects\Accounts Software\QCash (Access FW 4.0)\3 Account Types Voucher Based V6\QCash\sCommonLib\obj\Debug\sCommonLib.pdb
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\bin\Debug\sCommonLib.dll
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\bin\Debug\sCommonLib.pdb
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\obj\Debug\sCommonLib.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.ConfirmationMessageBox.resources
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.frmStackTraceDetails.resources
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.GeneralMessageBox.resources
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.SuccessMessageBox.resources
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.SystemExceptionMessageBox.resources
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\obj\Debug\sCommonLib.MessageBoxes.UserExceptionMessageBox.resources
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\obj\Debug\sCommonLib.Properties.Resources.resources
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\obj\Debug\sCommonLib.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\obj\Debug\sCommonLib.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\obj\Debug\sCommonLib.dll
+C:\Users\User\Desktop\Old_Projects_EvlonLive\47\QCash\sCommonLib\obj\Debug\sCommonLib.pdb

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCashBook" targetNamespace="http://tempuri.org/dsCashBook.xsd" xmlns:mstns="http://tempuri.org/dsCashBook.xsd" xmlns="http://tempuri.org/dsCashBook.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCashBook" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCashBook" msprop:Generator_UserDSName="dsCashBook">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblCashBook" msprop:Generator_TableClassName="tblCashBookDataTable" msprop:Generator_TableVarName="tabletblCashBook" msprop:Generator_TablePropName="tblCashBook" msprop:Generator_RowDeletingName="tblCashBookRowDeleting" msprop:Generator_UserTableName="tblCashBook" msprop:Generator_RowChangingName="tblCashBookRowChanging" msprop:Generator_RowEvHandlerName="tblCashBookRowChangeEventHandler" msprop:Generator_RowDeletedName="tblCashBookRowDeleted" msprop:Generator_RowEvArgName="tblCashBookRowChangeEvent" msprop:Generator_RowChangedName="tblCashBookRowChanged" msprop:Generator_RowClassName="tblCashBookRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DrVoucherNo" msprop:Generator_ColumnVarNameInTable="columnDrVoucherNo" msprop:Generator_ColumnPropNameInRow="DrVoucherNo" msprop:Generator_ColumnPropNameInTable="DrVoucherNoColumn" msprop:Generator_UserColumnName="DrVoucherNo" type="xs:string" minOccurs="0" />
+              <xs:element name="DrAccountName" msprop:Generator_ColumnVarNameInTable="columnDrAccountName" msprop:Generator_ColumnPropNameInRow="DrAccountName" msprop:Generator_ColumnPropNameInTable="DrAccountNameColumn" msprop:Generator_UserColumnName="DrAccountName" type="xs:string" minOccurs="0" />
+              <xs:element name="DrAccountCode" msprop:Generator_ColumnVarNameInTable="columnDrAccountCode" msprop:Generator_ColumnPropNameInRow="DrAccountCode" msprop:Generator_ColumnPropNameInTable="DrAccountCodeColumn" msprop:Generator_UserColumnName="DrAccountCode" type="xs:string" minOccurs="0" />
+              <xs:element name="DrCash" msprop:Generator_ColumnVarNameInTable="columnDrCash" msprop:Generator_ColumnPropNameInRow="DrCash" msprop:Generator_ColumnPropNameInTable="DrCashColumn" msprop:Generator_UserColumnName="DrCash" type="xs:string" minOccurs="0" />
+              <xs:element name="CrVoucherNo" msprop:Generator_ColumnVarNameInTable="columnCrVoucherNo" msprop:Generator_ColumnPropNameInRow="CrVoucherNo" msprop:Generator_ColumnPropNameInTable="CrVoucherNoColumn" msprop:Generator_UserColumnName="CrVoucherNo" type="xs:string" minOccurs="0" />
+              <xs:element name="CrAccountName" msprop:Generator_ColumnVarNameInTable="columnCrAccountName" msprop:Generator_ColumnPropNameInRow="CrAccountName" msprop:Generator_ColumnPropNameInTable="CrAccountNameColumn" msprop:Generator_UserColumnName="CrAccountName" type="xs:string" minOccurs="0" />
+              <xs:element name="CrAccountCode" msprop:Generator_ColumnVarNameInTable="columnCrAccountCode" msprop:Generator_ColumnPropNameInRow="CrAccountCode" msprop:Generator_ColumnPropNameInTable="CrAccountCodeColumn" msprop:Generator_UserColumnName="CrAccountCode" type="xs:string" minOccurs="0" />
+              <xs:element name="CrCash" msprop:Generator_ColumnVarNameInTable="columnCrCash" msprop:Generator_ColumnPropNameInRow="CrCash" msprop:Generator_ColumnPropNameInTable="CrCashColumn" msprop:Generator_UserColumnName="CrCash" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

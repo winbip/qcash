@@ -1,0 +1,932 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5890EE46-1751-4B1C-90FA-5991CB57DA87}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QCash</RootNamespace>
+    <AssemblyName>QCash</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\GreenUSDollarIco64.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.3.2.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Component Factory\Krypton Toolkit 4.3.2\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Framework.Controls.ProgressBar">
+      <HintPath>..\..\Externals\Framework.Controls.ProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Guifreaks.Common">
+      <HintPath>..\..\Externals\Guifreaks.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Guifreaks.NavigationBar">
+      <HintPath>..\..\Externals\Guifreaks.NavigationBar.dll</HintPath>
+    </Reference>
+    <Reference Include="InputDialogBox">
+      <HintPath>..\..\Externals\InputDialogBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.WinForms.10.0.40219.1\lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="SpellNumber">
+      <HintPath>..\..\Externals\SpellNumber.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUsForms\frmAboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUsForms\frmAboutUs.designer.cs">
+      <DependentUpon>frmAboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUsForms\frmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUsForms\frmRegister.designer.cs">
+      <DependentUpon>frmRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonForms\frmMsReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonForms\frmMsReportViewer.Designer.cs">
+      <DependentUpon>frmMsReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonForms\frmProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonForms\frmProgressBar.designer.cs">
+      <DependentUpon>frmProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEventMaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEventMaker.designer.cs">
+      <DependentUpon>frmEventMaker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResetDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResetDatabase.Designer.cs">
+      <DependentUpon>frmResetDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalVariables.cs" />
+    <Compile Include="MasterSetupForms\ChartOfAccountsForm\frmAccountHeadDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\ChartOfAccountsForm\frmAccountHeadDetails.designer.cs">
+      <DependentUpon>frmAccountHeadDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSetupForms\ChartOfAccountsForm\frmAddEditSubCatNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\ChartOfAccountsForm\frmAddEditSubCatNode.designer.cs">
+      <DependentUpon>frmAddEditSubCatNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSetupForms\ChartOfAccountsForm\frmChartOfAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\ChartOfAccountsForm\frmChartOfAccount.designer.cs">
+      <DependentUpon>frmChartOfAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSetupForms\ChartOfAccountsForm\frmSelectSubCategoryNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\ChartOfAccountsForm\frmSelectSubCategoryNode.designer.cs">
+      <DependentUpon>frmSelectSubCategoryNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSetupForms\frmCompanyInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\frmCompanyInfo.designer.cs">
+      <DependentUpon>frmCompanyInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSetupForms\frmDatabaseConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\frmDatabaseConfiguration.designer.cs">
+      <DependentUpon>frmDatabaseConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSetupForms\frmPermissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\frmPermissions.designer.cs">
+      <DependentUpon>frmPermissions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSetupForms\frmUserDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\frmUserDetails.designer.cs">
+      <DependentUpon>frmUserDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSetupForms\OpeningBalanceForms\frmOpeningBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\OpeningBalanceForms\frmOpeningBalance.designer.cs">
+      <DependentUpon>frmOpeningBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSetupForms\OpeningBalanceForms\frmOpeningBalanceHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\OpeningBalanceForms\frmOpeningBalanceHistory.designer.cs">
+      <DependentUpon>frmOpeningBalanceHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSetupForms\SubCategoryForms\frmSubCategoryDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\SubCategoryForms\frmSubCategoryDetails.designer.cs">
+      <DependentUpon>frmSubCategoryDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSetupForms\SubCategoryForms\frmSubCategoryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\SubCategoryForms\frmSubCategoryList.designer.cs">
+      <DependentUpon>frmSubCategoryList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSetupForms\UserMenuForms\frmAppUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\UserMenuForms\frmAppUser.designer.cs">
+      <DependentUpon>frmAppUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSetupForms\UserMenuForms\frmAppUserList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSetupForms\UserMenuForms\frmAppUserList.designer.cs">
+      <DependentUpon>frmAppUserList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyDatasets\dsCashBook.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCashBook.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyDatasets\dsGeneralLedger.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGeneralLedger.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyDatasets\dsOpeningBalanceHistory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOpeningBalanceHistory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyDatasets\dsTrialBalance.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTrialBalance.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyDatasets\dsVoucherHistory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsVoucherHistory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PreventMultipleInstance.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgramMenuForms\frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramMenuForms\frmChangePassword.designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramMenuForms\frmLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramMenuForms\frmLogIn.designer.cs">
+      <DependentUpon>frmLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UtilityMenuForms\frmExportData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UtilityMenuForms\frmExportData.designer.cs">
+      <DependentUpon>frmExportData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMenuForms\frmCashBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMenuForms\frmCashBook.designer.cs">
+      <DependentUpon>frmCashBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMenuForms\frmGeneralLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMenuForms\frmGeneralLedger.designer.cs">
+      <DependentUpon>frmGeneralLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMenuForms\frmGeneralLedgerFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMenuForms\frmGeneralLedgerFilter.designer.cs">
+      <DependentUpon>frmGeneralLedgerFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMenuForms\frmTrialBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMenuForms\frmTrialBalance.designer.cs">
+      <DependentUpon>frmTrialBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VoucherMenuForms\frmVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VoucherMenuForms\frmVoucher.designer.cs">
+      <DependentUpon>frmVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VoucherMenuForms\frmVoucherHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VoucherMenuForms\frmVoucherHistory.designer.cs">
+      <DependentUpon>frmVoucherHistory.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutUsForms\frmAboutUs.resx">
+      <DependentUpon>frmAboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutUsForms\frmRegister.resx">
+      <DependentUpon>frmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllReports\CashBook.rdlc" />
+    <EmbeddedResource Include="AllReports\ChartOfAccounts.rdlc" />
+    <EmbeddedResource Include="AllReports\GeneralLedger.rdlc" />
+    <EmbeddedResource Include="AllReports\OpeningBalanceHistory.rdlc" />
+    <EmbeddedResource Include="AllReports\TrialBalance.rdlc" />
+    <EmbeddedResource Include="AllReports\VoucherHistory.rdlc" />
+    <EmbeddedResource Include="AllReports\VoucherReceipt.rdlc" />
+    <EmbeddedResource Include="CommonForms\frmMsReportViewer.resx">
+      <DependentUpon>frmMsReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonForms\frmProgressBar.resx">
+      <DependentUpon>frmProgressBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEventMaker.resx">
+      <DependentUpon>frmEventMaker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResetDatabase.resx">
+      <DependentUpon>frmResetDatabase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\ChartOfAccountsForm\frmAccountHeadDetails.resx">
+      <DependentUpon>frmAccountHeadDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\ChartOfAccountsForm\frmAddEditSubCatNode.resx">
+      <DependentUpon>frmAddEditSubCatNode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\ChartOfAccountsForm\frmChartOfAccount.resx">
+      <DependentUpon>frmChartOfAccount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\ChartOfAccountsForm\frmSelectSubCategoryNode.resx">
+      <DependentUpon>frmSelectSubCategoryNode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\frmCompanyInfo.resx">
+      <DependentUpon>frmCompanyInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\frmDatabaseConfiguration.resx">
+      <DependentUpon>frmDatabaseConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\frmPermissions.resx">
+      <DependentUpon>frmPermissions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\frmUserDetails.resx">
+      <DependentUpon>frmUserDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\OpeningBalanceForms\frmOpeningBalance.resx">
+      <DependentUpon>frmOpeningBalance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\OpeningBalanceForms\frmOpeningBalanceHistory.resx">
+      <DependentUpon>frmOpeningBalanceHistory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\SubCategoryForms\frmSubCategoryDetails.resx">
+      <DependentUpon>frmSubCategoryDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\SubCategoryForms\frmSubCategoryList.resx">
+      <DependentUpon>frmSubCategoryList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\UserMenuForms\frmAppUser.resx">
+      <DependentUpon>frmAppUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSetupForms\UserMenuForms\frmAppUserList.resx">
+      <DependentUpon>frmAppUserList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramMenuForms\frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramMenuForms\frmLogIn.resx">
+      <DependentUpon>frmLogIn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UtilityMenuForms\frmExportData.resx">
+      <DependentUpon>frmExportData.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMenuForms\frmCashBook.resx">
+      <DependentUpon>frmCashBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMenuForms\frmGeneralLedger.resx">
+      <DependentUpon>frmGeneralLedger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMenuForms\frmGeneralLedgerFilter.resx">
+      <DependentUpon>frmGeneralLedgerFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMenuForms\frmTrialBalance.resx">
+      <DependentUpon>frmTrialBalance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoucherMenuForms\frmVoucher.resx">
+      <DependentUpon>frmVoucher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VoucherMenuForms\frmVoucherHistory.resx">
+      <DependentUpon>frmVoucherHistory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="MyDatasets\dsCashBook.xsc">
+      <DependentUpon>dsCashBook.xsd</DependentUpon>
+    </None>
+    <None Include="MyDatasets\dsCashBook.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCashBook.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MyDatasets\dsCashBook.xss">
+      <DependentUpon>dsCashBook.xsd</DependentUpon>
+    </None>
+    <None Include="MyDatasets\dsGeneralLedger.xsc">
+      <DependentUpon>dsGeneralLedger.xsd</DependentUpon>
+    </None>
+    <None Include="MyDatasets\dsGeneralLedger.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGeneralLedger.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MyDatasets\dsGeneralLedger.xss">
+      <DependentUpon>dsGeneralLedger.xsd</DependentUpon>
+    </None>
+    <None Include="MyDatasets\dsOpeningBalanceHistory.xsc">
+      <DependentUpon>dsOpeningBalanceHistory.xsd</DependentUpon>
+    </None>
+    <None Include="MyDatasets\dsOpeningBalanceHistory.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOpeningBalanceHistory.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MyDatasets\dsOpeningBalanceHistory.xss">
+      <DependentUpon>dsOpeningBalanceHistory.xsd</DependentUpon>
+    </None>
+    <None Include="MyDatasets\dsTrialBalance.xsc">
+      <DependentUpon>dsTrialBalance.xsd</DependentUpon>
+    </None>
+    <None Include="MyDatasets\dsTrialBalance.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTrialBalance.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MyDatasets\dsTrialBalance.xss">
+      <DependentUpon>dsTrialBalance.xsd</DependentUpon>
+    </None>
+    <None Include="MyDatasets\dsVoucherHistory.xsc">
+      <DependentUpon>dsVoucherHistory.xsd</DependentUpon>
+    </None>
+    <None Include="MyDatasets\dsVoucherHistory.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsVoucherHistory.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MyDatasets\dsVoucherHistory.xss">
+      <DependentUpon>dsVoucherHistory.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\CustomObjects.ChartOfAccounts.datasource" />
+    <None Include="Properties\DataSources\CustomObjects.CompanyInfo.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SomeUsefulCodeTemplates.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomControls\CustomControls.csproj">
+      <Project>{26162205-B99B-440F-AA74-8BB991D3CF92}</Project>
+      <Name>CustomControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CustomObjects\CustomObjects.csproj">
+      <Project>{253560F9-C8B7-498E-B896-907F693312D0}</Project>
+      <Name>CustomObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RegKey\RegKey.csproj">
+      <Project>{7D00BA80-5CBA-4DCF-BC0F-17F9AE7EE716}</Project>
+      <Name>RegKey</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sCommonLib\sCommonLib.csproj">
+      <Project>{3C870E2C-6D4C-4825-98DF-2B7580A11DDD}</Project>
+      <Name>sCommonLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QFlexSplash.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QFlexIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OfficeTree16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OfficeTree32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OperatingYearPng16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OperatingYearPng32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ServerPng16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ServerPng32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserIconLoginBig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OfficeTreeIco16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OperatingYearIco16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ServerIco16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoggedIn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoggedOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KeyNice16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KeyNice32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KeyNiceIco16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogInGreenArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogOutGreenArrowDoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogOutWhiteArrow16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogOutWhiteArrow32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExitProgram16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalendarBlueIco16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalendarBlueIco32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalendarBlueIco48.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalendarBluePng16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalendarBluePng32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalendarBluePng48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserAddBlue16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserDelete16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserGreen16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserGroupBlueGreen16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserGroupBlueGreen32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserGroupBlueGreenIco.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserUpdate16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PermissionPageKey16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PermissionPageKey32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PermissionPageKeyIco16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErrorLogPng16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FocusAdd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FocusRemove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashPayment16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CC2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AA2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CC1Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CC1Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartOfAccountsIco16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartOfAccountsIco32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartOfAccountsPng16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartOfAccountsPng32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AccountHeadIco16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AccountHeadIco32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AccountHeadPng16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AccountHeadPng32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashPayment32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashPaymentIco.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashPaymentIco32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashReceive16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashReceive32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashReceiveIco.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashReceiveIco32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JrVoucher16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JrVoucher32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JrVoucherIco.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteArrowFirst16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteArrowFirstst32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteArrowLast16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteArrowLast32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteArrowNext16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteArrowNext32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteArrowPrev16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteArrowPrev32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrinterGreen16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrinterGreen32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SearchGreenHandle16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SearchGreenHandle32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BluePlus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashBook16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashBook32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashBookIco16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashBookIco32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoadCashBook22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoadCashBookGreenArrow48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuleArrow32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoadCashBook32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResetCashBook16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrinterGreen64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LedgerBookIco16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LedgerBookIco32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LedgerBookPng16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LedgerBookPng32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrialBalanceIco48.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrialBalancePng16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrialBalancePng24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrialBalancePng32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpeningBalanceIco16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpeningBalanceIco32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpeningBalancePng16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpeningBalancePng32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EntityFolderClosedHorizontally16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EntityFolderClosedHorizontally24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EntityFolderClosedVertically16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EntityFolderClosedVertically24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EntityFolderOpenedHorizontally16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EntityFolderOpenedHorizontally24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EntityFolderOpenedVertically16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EntityFolderOpenedVertically24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenUSDollarIco16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenUSDollarIco24.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenUSDollarIco32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenUSDollarIco48.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenUSDollarIco64.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenUSDollarPng16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenUSDollarPng24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenUSDollarPng32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenUSDollarPng48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenUSDollarPng64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomepageBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomePageMenu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EvlonLogo.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
