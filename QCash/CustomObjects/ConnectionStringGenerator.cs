@@ -12,15 +12,15 @@ namespace CustomObjects
 
         public static string GenerateForAccess2003(string DatabaseDirectory, string OperatingYear)
         {
-            //string ProviderInfo = "Microsoft.Jet.OLEDB.4.0"; //for Access 2003
-            string ProviderInfo = "Microsoft.ACE.OLEDB.12.0"; // for Access 2007
+            string ProviderInfo = "Microsoft.Jet.OLEDB.4.0"; //for Access 2003
+            //string ProviderInfo = "Microsoft.ACE.OLEDB.12.0"; // for Access 2007
 
-            //string DatabaseName = DatabasePrefix + OperatingYear + ".mdb";
-            string DatabaseName = DatabasePrefix + OperatingYear + ".accdb";
+            string DatabaseName = DatabasePrefix + OperatingYear + ".mdb";
+            //string DatabaseName = DatabasePrefix + OperatingYear + ".accdb";
             string DatabasePassword = "BigBoss";
 
-            string DatabaseSecurityInfo = "Persist Security Info =False"; //if no password
-            //string DatabaseSecurityInfo = "Jet OLEDB:Database Password=" + DatabasePassword + ""; //if password
+            //string DatabaseSecurityInfo = "Persist Security Info =False"; //if no password
+            string DatabaseSecurityInfo = "Jet OLEDB:Database Password=" + DatabasePassword + ""; //if password
 
             string ConString = string.Empty;
             ConString = "Provider=" + ProviderInfo + ";Data Source= " + DatabaseDirectory + "\\" + DatabaseName + ";" + DatabaseSecurityInfo + ";";
